@@ -1,11 +1,9 @@
 <details>
-<summary>Ores:</summary>
+<summary>Natural Resources</summary>
 
-|          |               |
-|:--------:|:--------------|
-| col 1 is |Regolith|
-| col 2 is |Water (Ice)|
-| col 3 is |Iron ore|
+* ![Sand](https://imgur.com/PXRfbSM.png) Regolith
+* ![Sand](https://imgur.com/PXRfbSM.png) Water (Ice)
+* ![Sand](https://imgur.com/PXRfbSM.png) Iron ore
 
 Regolith (rocks, dust, and sand)
 - 40%
@@ -74,7 +72,9 @@ Dysprosium ore
 
 </details>
 
-Gases:
+<details>
+<summary>Gases:</summary>
+
 Carbon dioxide
 -	90%
 -	Used for producing oxygen, fuel, and as a coolant in certain systems
@@ -96,7 +96,11 @@ Argon
 -	Used as an inert gas for pressurizing habitats, shielding, and industrial processes
 -	Gathered by extracting and purifying argon from the Martian atmosphere
 
-Other Materials:
+</details>
+
+<details>
+<summary>Other Materials:</summary>
+
 Martian Dust
 -	10%
 -	Used as an additive in construction materials to improve insulation and structural integrity
@@ -118,3 +122,5 @@ Concrete
 Polymer Materials
 -	Used for manufacturing various components, insulation, and flexible structures
 -	Produced by extracting and processing organic compounds from carbon dioxide or other sources
+
+<details>
