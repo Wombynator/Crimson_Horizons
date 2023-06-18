@@ -3,11 +3,18 @@
 
 enum class IngameStates
 {
-    Initializing,
-    MainMenu,
     Loading,
+    StartingGameplay,
     InGame,
+    Paused,
+    Options,
     Exiting
+};
+
+enum class OpenContainer
+{
+    None,
+    Inventory
 };
 
 // Forward declaration of sf::RenderWindow
