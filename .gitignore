@@ -1,5 +1,7 @@
+.vscode
+
+Makefile
 *.exe
 build
-.vscode
+
 logs
-Makefile
