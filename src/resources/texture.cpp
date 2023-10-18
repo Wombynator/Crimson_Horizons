@@ -15,9 +15,9 @@ void loadTexture(const std::string& filename, const std::string& id) {
 
 void LoadTextures()
 {
-    loadTexture("assets/images/preset.png", "preset");
-    loadTexture("assets/images/sand.png", "sand");
-    loadTexture("assets/images/player.png", "player");
+    loadTexture("assets/textures/blocks/regolith.png", "regolith");
+    loadTexture("assets/textures/blocks/ice.png", "ice");
+    loadTexture("assets/textures/player/player.png", "player");
 }
 
 sf::Texture& getTexture(const std::string& id) {

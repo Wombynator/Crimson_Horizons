@@ -23,7 +23,7 @@ sf::Sprite sprite;
 
 void InitPlayer() {
     // Constructor implementation
-    playerScale = 3;
+    playerScale = 4;
     texture = getTexture("player");
     sprite.setTexture(texture);
     sprite.setScale(playerScale, playerScale);
