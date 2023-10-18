@@ -31,7 +31,7 @@ void QuitGame() { currentGameState = GameStates::Exiting; }
 
 void Init()
 {
-    window.create(sf::VideoMode(1280, 720), "Marsian Game");
+    window.create(sf::VideoMode(1280, 720), "Crimson Horizons");
     window.setFramerateLimit(60);
     InitLogger();
 
