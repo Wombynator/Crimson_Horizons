@@ -13,8 +13,10 @@
 #include "scenes/menu.h"
 #include "scenes/quit.h"
 
+#include "utilities/filemanager.h"
+#include "utilities/imagehandler.h"
 #include "utilities/logger.h"
-#include "utilities/settings.h"
+#include "utilities/config.h"
 
 
 GameStates currentGameState = GameStates::Initializing;
@@ -78,6 +80,9 @@ int main()
     sf::Clock clock;
     deltaTime = clock.restart().asSeconds();
     Init();
+    Config& config = Config::getInstance();
+    config.setValue("Gameplay", "player_name", "NewPlayerName");
+
     while (window.isOpen())
     {
         window.clear(); // Clear the window
@@ -112,6 +117,6 @@ int main()
 
         window.display();
     }
-
+    config.saveToFile();
     return 0;
 }
